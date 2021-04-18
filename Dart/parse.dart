@@ -5,7 +5,7 @@ List<int> toIntList(String source) {
   final List<int> numbers = [];
 
   //Преобразуем каждую подстроку в int
-  for (int i = 0; i < numbers.length; i++) {
+  for (int i = 0; i < substrings.length; i++) {
     numbers.add(int.parse(substrings[i]));
   }
 
